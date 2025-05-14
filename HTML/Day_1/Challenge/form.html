@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>설문조사</title>
+</head>
+<body>
+<header>
+    <h1>과일에 대한 설문조사 양식</h1>
+    <p>제시되는 항목에 체크를 해주십시오.</p>
+</header>
+<hr>
+<main>
+    <form>
+        <fieldset>
+            <legend>개인정보</legend>
+            <label for="name">이름</label>
+            <input type="text" id="name" placeholder="이름을 입력하세요">
+            <br>
+            <label for="email">이메일</label>
+            <input type="email" id="email" placeholder="이메일을 입력하세요">
+        </fieldset>
+        <fieldset>
+            <legend>설문</legend>
+            <p>선호하는 과일이 어떻게 되시나요?</p>
+            <input type="radio" id="apple" name="fruits">
+            <label for="apple">사과</label>
+            <input type="radio" id="banana" name="fruits">
+            <label for="banana">바나나</label>
+            <input type="radio" id="melon" name="fruits">
+            <label for="melon">멜론</label>
+            <input type="radio" id="watermelon" name="fruits">
+            <label for="watermelon">수박</label>
+            <input type="radio" id="orange" name="fruits">
+            <label for="orange">오렌지</label>
+            <input type="radio" id="grape" name="fruits">
+            <label for="grape">포도</label>
+            <input type="radio" id="strawberry" name="fruits">
+            <label for="strawberry">딸기</label>
+            <input type="radio" id="other" name="fruits">
+            <label for="other">그 외</label>
+
+            <p><mark>그 외</mark>를 선택하셨을 경우 입력해주세요.</p>
+            <input>
+        </fieldset>
+        <fieldset>
+            <legend>기타의견</legend>
+            <p>요청 사항이 있으시면 적어주십시오.</p>
+            <textarea rows="3" cols="30" name="comment"></textarea>
+        </fieldset>
+        <input type="submit">
+    </form>
+</main>
+<hr>
+<footer>
+    <p>설문에 응해주셔서 감사합니다.</p>
+</footer>
+</body>
+</html>
