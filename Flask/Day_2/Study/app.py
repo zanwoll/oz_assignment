@@ -42,3 +42,5 @@ def create_datas():
     datas.append(new_data)
 
     return new_data, 201
+
+app.run(debug=True)
