@@ -37,6 +37,5 @@ class FeedDetail(APIView):
         # feed (object) => json => serializer
         
         serializer = FeedSerializer(feed)
-        print(serializer)
         
         return Response(serializer.data)
